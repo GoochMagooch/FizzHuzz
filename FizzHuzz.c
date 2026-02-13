@@ -15,6 +15,8 @@ int main() {
                 printf("Fizz\n");
             } else if (i % 5 == 0) {
                 printf("Huzz\n");
+            } else {
+                printf("%d\n", i);
             }
         }
     } else {
